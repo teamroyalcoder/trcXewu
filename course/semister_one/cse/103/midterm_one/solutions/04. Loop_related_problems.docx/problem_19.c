@@ -1,20 +1,6 @@
 /**
- * 	WAP that will calculate following mathematical function for the input of x. Use only the series to solve the problem.
+ * WAP that will calculate following mathematical function for the input of x. Use only the series to solve the problem.
  * sin⁡x=x-  x^3/3!+  x^5/5!-x^7/7!+⋯…….∞
- * 
- * ----------------------------------------------------------------
- * Sample input:                | 1
- *                              |--------------------------------
- *                              | 2
- *                              |--------------------------------
- * 				| 3
- * ----------------------------------------------------------------
- * Sample output:               | 0.841
- *                              |--------------------------------
- *                              | 0.909
- *                              |--------------------------------
- * 				| 0.141
- * ----------------------------------------------------------------
  * 
  * Solved (Issue remains) - @mrasadatik
  * 
