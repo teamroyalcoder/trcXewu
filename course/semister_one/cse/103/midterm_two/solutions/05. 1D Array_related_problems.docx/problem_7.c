@@ -12,7 +12,7 @@
 int main() {
 
     int term, vowelsCount = 0;
-    char vowels[5] = {'A', 'E', 'I', 'O', 'U'}, tempAlphabet;
+    char tempAlphabet;
 
     scanf("%d", &term);
 
@@ -24,23 +24,24 @@ int main() {
 
     // Counting the number of vowels
 
-    /*
     // Using Linear search (usually for short array)
+    char vowels[5] = {'A', 'E', 'I', 'O', 'U'};
+    
     for(int i = 0; i < term; i++) {
         tempAlphabet = toupper(alphabets[i]);
         for(int j = 0; j < 5; j++) {
-            if(tempAlphabet == alphabets[j]) {
+            if(tempAlphabet == vowels[j]) {
                 ++vowelsCount;
                 break;
             }
         }
     }
-    */
 
-    // Using Hash Table
+    /*
+    // Using Hash Table (usually for long array)
     int hashTable[26] = {0};
 
-    // Building hash table for vowels (usually for long array)
+    // Building hash table for vowels
     hashTable['A' - 'A'] = 1;
     hashTable['E' - 'A'] = 1;
     hashTable['I' - 'A'] = 1;
@@ -53,6 +54,7 @@ int main() {
             ++vowelsCount;
         }
     }
+    */
 
     printf("\n");
 
