@@ -1,6 +1,6 @@
 /**
- * WAP that will take n integer numbers into an array, and then print all the integers into
- * reverse order (from the last valid index to index 0).
+ * WAP that will take n integer numbers into an array, and then sum up all the even integers
+ * in that array.
  * 
  * Solve (No issue remains) - @mrasadatik
  * 
